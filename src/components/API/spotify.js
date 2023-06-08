@@ -13,7 +13,7 @@ const scopes = [
 
   const client_id  = import.meta.env.VITE_REACT_APP_CLIENT_ID;
 
-  export const accessUrl = `${authEndPoint}?client_id=${client_id}&redirect_uri=${redirectUri}&scope=${scopes.join(
+  export const accessUrl = `${authEndPoint}?client_id=746510c6d4594257ad35b8779601302a&redirect_uri=${redirectUri}&scope=${scopes.join(
     "%20"
   )}&response_type=token&show_dialog=true`;
   
