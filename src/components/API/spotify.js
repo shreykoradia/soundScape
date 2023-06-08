@@ -11,7 +11,9 @@ const scopes = [
     "user-library-read",
   ];
 
-  export const accessUrl = `${authEndPoint}?client_id=${import.meta.env.VITE_REACT_APP_CLIENT_ID}&redirect_uri=${redirectUri}&scope=${scopes.join(
+  const client_id  = import.meta.env.VITE_REACT_APP_CLIENT_ID;
+
+  export const accessUrl = `${authEndPoint}?client_id=${client_id}&redirect_uri=${redirectUri}&scope=${scopes.join(
     "%20"
   )}&response_type=token&show_dialog=true`;
   
