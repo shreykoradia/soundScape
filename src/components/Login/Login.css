@@ -1,0 +1,27 @@
+.login-container{
+    display: grid;
+    place-items: center;
+}
+
+.image-container{
+    height: 100px;
+    margin-top: 2rem;
+}
+
+.title-header{
+    font-size: 1rem;
+    font-family: 'Courier New';
+    padding: 2rem;
+}
+
+.login-button{
+    padding: 20px;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'Courier New';
+    margin-top: 10rem;
+    color: white;
+
+}

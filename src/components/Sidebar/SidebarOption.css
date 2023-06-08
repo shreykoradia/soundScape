@@ -1,0 +1,39 @@
+.sidebar_option{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 800;
+    height: 40px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: rgb(169, 165, 165);
+    transition: 200ms color ease-in;
+    
+}
+
+.sidebar_option :hover {
+    color:  white;
+}
+
+.sidebarOption__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.playlist_image{
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+.playlist_render{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.list_p{
+    font-size: 1rem;
+}

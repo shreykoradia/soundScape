@@ -1,0 +1,40 @@
+.body_container{
+    height: 100vh;
+    width: 100%;
+    margin: 0.50rem;
+    display: flex;
+}
+
+.body_header{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 10px;
+    font-weight: 800;
+    color: rgb(169, 165, 165);
+}
+.card_prop{
+    background-color:  rgba(255, 255, 255, 0.073);
+    backdrop-filter: blur(15px);
+}
+
+.recommendation-container{
+    padding: 10px 0;
+    margin-top: 1rem;
+    height: 70vh;
+    overflow: auto;
+}
+
+.library_list{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logout-button{
+    background: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
