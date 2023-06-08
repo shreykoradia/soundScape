@@ -1,4 +1,4 @@
-import Sidebar from "../Sidebar/SIdebar"
+import Sidebar from "../Sidebar/Sidebar"
 import SpotifyBody from "../SpotifyBody/SpotifyBody"
 import './Player.css'
 
