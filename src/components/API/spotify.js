@@ -1,6 +1,6 @@
 
 export const authEndPoint = "https://accounts.spotify.com/authorize";
-const  redirectUri = "https://sound-scape-ten.vercel.app/";
+const  redirectUri = "http://sound-scape-ten.vercel.app";
 
 const scopes = [
     "user-read-currently-playing",
